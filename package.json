@@ -1,0 +1,21 @@
+{
+  "name": "flappy-ball",
+  "version": "1.0.0",
+  "description": "Remake de Flappy Bird com bola, para desktop e celular.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "lemmining304",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemmining304/Flappy-Ball.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lemmining304/Flappy-Ball/issues"
+  },
+  "homepage": "https://github.com/lemmining304/Flappy-Ball#readme"
+}
