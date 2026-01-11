@@ -7,7 +7,19 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<canvas id="game"></canvas>
+<div id="menu">
+  <h1>Flappy Ball</h1>
+  <button id="playBtn">Jogar</button>
+</div>
+
+<div id="modeSelect" class="hidden">
+  <h2>Escolha o modo</h2>
+  <button id="classicBtn">Modo Clássico</button>
+  <button id="challengeBtn">Modo Desafio</button>
+</div>
+
+<canvas id="game" class="hidden"></canvas>
+
 <script src="js/game.js"></script>
 </body>
 </html>
